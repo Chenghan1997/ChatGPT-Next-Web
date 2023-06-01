@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "请在设置（就是左下角齿轮那个地方）里填写访问密码。如果你没有访问密码，可以找瀚哥要一个，免费的。当然你也可以给瀚哥V50展示下你的实力，因为瀚哥很穷，租不起服务器",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -157,7 +157,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
+      SubTitle: "瀚哥已开启加密访问",
       Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
@@ -176,7 +176,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "你好，我是瀚哥的专属ChatGPT，你可以跟我随意聊天，但是不能说瀚哥的坏话。不过就算你说了，他也不能把你怎么样。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
